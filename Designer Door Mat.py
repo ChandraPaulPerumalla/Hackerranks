@@ -2,7 +2,7 @@
 R,C = map(int,input().split(' '))
 
 for i in range(1,R,2):
-    print((".|."*i).center(C,'-'))
+    print((".|."*i).center(C,' - '))
     
 print("WELCOME".center(C,'-'))
 
