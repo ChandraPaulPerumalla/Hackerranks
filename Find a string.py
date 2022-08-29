@@ -10,7 +10,7 @@ def count_substring(string, sub_string):
     sl=len(sub_string)
     c=0
     for  i in range(ml-sl+1):
-        if(string[i:(i+sl)]==sub_string):
+        if(string[i:(i+sl)]== sub_string):
             c=c+1     
     return c
 
