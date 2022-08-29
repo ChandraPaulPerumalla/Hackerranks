@@ -1,7 +1,7 @@
 def print_rangoli(size):
     # your code goes here
     n= size
-    l1=list(map(chr,range(97,123)))
+    l1=list(map(chr,range(97 , 123)))
     x=l1[n-1::-1]+l1[1:n]
     m=len('-'.join(x))
     for i in range(1,n):
